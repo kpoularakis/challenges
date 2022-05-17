@@ -5,7 +5,7 @@ addItem(): O(log N) time where N is the total number of items that arrive and ca
 getResult(): O(1) time
 size(): O(1) time
 O(N) space for storing the heap
-- I am still thinking if it is possible to reduce this time below O(log(N)) - A possible improved solution could be to use a balanced tree and delete the whole subtree below a node we delete since we know all these values will be smaller. For now i will stick to the more simple solution that I am confident about which iteratively deletes the root of the minHeap until all values are inside the time window
+- I am still thinking if it is possible to reduce this time below O(log(N)) - A possible improved solution could be to delete the whole subtree below a node we delete since we know all these values will be smaller. For now I will stick to the more simple solution that I am confident about which iteratively deletes the root of the minHeap until all values are inside the time window
 '''
 from heapq import *
 class SlideSumBasic:
