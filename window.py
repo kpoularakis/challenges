@@ -1,7 +1,7 @@
 
 '''
 Solution using minHeap: 
-addItem(): O(log N) time where N is the total number of items that arrive and can be inside the window 
+addItem(): O(Nlog N) time where N is the total number of items that arrive and can be inside the window 
 getResult(): O(1) time
 size(): O(1) time
 O(N) space for storing the heap
